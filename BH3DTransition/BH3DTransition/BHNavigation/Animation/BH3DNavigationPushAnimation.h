@@ -1,5 +1,5 @@
 //
-//  BHNavigationPopAnimation.h
+//  BHNavigationPushAnimation.h
 //  BH3DTransition
 //
 //  Created by libohao on 15/8/8.
@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface BHNavigationPopAnimation : NSObject <UIViewControllerAnimatedTransitioning>
+@interface BH3DNavigationPushAnimation : NSObject <UIViewControllerAnimatedTransitioning>
 
 @end

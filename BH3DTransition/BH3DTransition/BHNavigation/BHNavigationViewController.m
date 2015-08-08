@@ -9,8 +9,8 @@
 #import "BHNavigationViewController.h"
 #import "UIViewController+BHNavigation.h"
 #import "UIView+Accessor.h"
-#import "BHNavigationPopAnimation.h"
-#import "BHNavigationPushAnimation.h"
+#import "BH3DNavigationPopAnimation.h"
+#import "BH3DNavigationPushAnimation.h"
 #import "BHNavigationBar.h"
 
 
@@ -155,9 +155,9 @@
                                                  toViewController:(UIViewController *)toVC {
     
     if (operation == UINavigationControllerOperationPop && navigationController.viewControllers.count >= 1 && self.enableInnerInactiveGesture) {
-        return [[BHNavigationPopAnimation alloc] init];
+        return [[BH3DNavigationPopAnimation alloc] init];
     } else if (operation == UINavigationControllerOperationPush) {
-        BHNavigationPushAnimation *animation = [[BHNavigationPushAnimation alloc] init];
+        BH3DNavigationPushAnimation *animation = [[BH3DNavigationPushAnimation alloc] init];
         return animation;
     } else {
         return nil;
@@ -166,7 +166,7 @@
 
 - (id<UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController
                          interactionControllerForAnimationController:(id<UIViewControllerAnimatedTransitioning>)animationController {
-    if ([animationController isKindOfClass:[BHNavigationPopAnimation class]] && self.enableInnerInactiveGesture) {
+    if ([animationController isKindOfClass:[BH3DNavigationPopAnimation class]] && self.enableInnerInactiveGesture) {
         return self.interactivePopTransition;
     }
     else {

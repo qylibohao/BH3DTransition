@@ -25,7 +25,7 @@
     layer.transform = t;
 }
 
--(void) destinationLastTransform:(CALayer*) layer
+-(void)destinationLastTransform:(CALayer*) layer
 {
     CATransform3D t = CATransform3DIdentity;
     t.m34 = 1.0/ -500;

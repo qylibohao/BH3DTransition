@@ -9,7 +9,7 @@
 #import "BHNavigationItem.h"
 #import "UIView+Accessor.h"
 #import "BHNavigationMarcos.h"
-#import "BHNavigationPushAnimation.h"
+#import "BH3DNavigationPushAnimation.h"
 #import "UIViewController+BHNavigation.h"
 
 @interface BHNavigationItem()

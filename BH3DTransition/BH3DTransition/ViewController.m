@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "BHNavigation.h"
+
+static NSInteger pushedCount = 1;
+
 
 @interface ViewController () <UITableViewDataSource,UITableViewDelegate>
 
@@ -34,11 +38,34 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     
+    self.bh_NavigationItem.title = [NSString stringWithFormat:@"第 %ld 页", (long)pushedCount];
+    
+    __weak typeof(ViewController) *weakSelf = self;
+    
+    if (pushedCount > 0) {
+        self.bh_NavigationItem.leftBarButtonItem = [[BHBarButtonItem alloc] initWithTitle:@"返回" style:BHBarButtonItemStylePlain handler:^(id sender) {
+            [weakSelf.navigationController popViewControllerAnimated:YES];
+        }];
+    }
+    
+    self.bh_NavigationItem.rightBarButtonItem = [[BHBarButtonItem alloc] initWithTitle:@"下一页" style:BHBarButtonItemStylePlain handler:^(id sender) {
+        [weakSelf pushToNextVC];
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
+
+- (void)pushToNextVC {
+    ViewController *vc = [[ViewController alloc] init];
+    pushedCount ++;
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
+
+#pragma mark - UITableView DataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 10;

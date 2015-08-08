@@ -12,9 +12,7 @@
 @interface BHTransform : NSObject
 
 -(void)destinationFirstTransform:(CALayer* )layer;
--(void) destinationLastTransform:(CALayer*) layer;
-
-
+-(void)destinationLastTransform:(CALayer*) layer;
 -(void)sourceFirstTransform:(CALayer *)layer;
 -(void)sourceLastTransform:(CALayer *)layer;
 
