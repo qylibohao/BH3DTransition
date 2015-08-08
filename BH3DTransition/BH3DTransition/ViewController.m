@@ -78,8 +78,7 @@ static NSInteger pushedCount = 1;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    ViewController* vc = [[ViewController alloc]init];
-    [self.navigationController pushViewController:vc animated:YES];
+    [self pushToNextVC];
 }
 
 @end
