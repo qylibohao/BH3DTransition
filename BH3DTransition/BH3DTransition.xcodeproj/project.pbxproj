@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE32A6101B7607050033CF1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A60F1B7607050033CF1C /* main.m */; };
+		CE32A6131B7607050033CF1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A6121B7607050033CF1C /* AppDelegate.m */; };
+		CE32A6161B7607050033CF1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A6151B7607050033CF1C /* ViewController.m */; };
+		CE32A61B1B7607050033CF1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE32A61A1B7607050033CF1C /* Images.xcassets */; };
+		CE32A62A1B7607050033CF1C /* BH3DTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A6291B7607050033CF1C /* BH3DTransitionTests.m */; };
+		CE32A6481B7609890033CF1C /* UIView+Accessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A6361B7609890033CF1C /* UIView+Accessor.m */; };
+		CE32A64B1B7609890033CF1C /* BHBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A63D1B7609890033CF1C /* BHBarButtonItem.m */; };
+		CE32A64C1B7609890033CF1C /* BHNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A6401B7609890033CF1C /* BHNavigationBar.m */; };
+		CE32A64D1B7609890033CF1C /* BHNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A6421B7609890033CF1C /* BHNavigationItem.m */; };
+		CE32A64E1B7609890033CF1C /* BHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A6451B7609890033CF1C /* BHNavigationViewController.m */; };
+		CE32A64F1B7609890033CF1C /* UIViewController+BHNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A6471B7609890033CF1C /* UIViewController+BHNavigation.m */; };
+		CE32A65B1B760C2C0033CF1C /* BHTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A65A1B760C2C0033CF1C /* BHTransform.m */; };
+		CE32A65E1B760C710033CF1C /* BHNavigationPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A65D1B760C710033CF1C /* BHNavigationPopAnimation.m */; };
+		CE32A6611B760C7B0033CF1C /* BHNavigationPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A6601B760C7B0033CF1C /* BHNavigationPushAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE32A6241B7607050033CF1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE32A6021B7607050033CF1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE32A6091B7607050033CF1C;
+			remoteInfo = BH3DTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE32A60A1B7607050033CF1C /* BH3DTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BH3DTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE32A60E1B7607050033CF1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE32A60F1B7607050033CF1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE32A6111B7607050033CF1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE32A6121B7607050033CF1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE32A6141B7607050033CF1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE32A6151B7607050033CF1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE32A61A1B7607050033CF1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE32A6231B7607050033CF1C /* BH3DTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BH3DTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE32A6281B7607050033CF1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE32A6291B7607050033CF1C /* BH3DTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BH3DTransitionTests.m; sourceTree = "<group>"; };
+		CE32A6351B7609890033CF1C /* UIView+Accessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Accessor.h"; sourceTree = "<group>"; };
+		CE32A6361B7609890033CF1C /* UIView+Accessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Accessor.m"; sourceTree = "<group>"; };
+		CE32A63C1B7609890033CF1C /* BHBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBarButtonItem.h; sourceTree = "<group>"; };
+		CE32A63D1B7609890033CF1C /* BHBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBarButtonItem.m; sourceTree = "<group>"; };
+		CE32A63E1B7609890033CF1C /* BHNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHNavigation.h; sourceTree = "<group>"; };
+		CE32A63F1B7609890033CF1C /* BHNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHNavigationBar.h; sourceTree = "<group>"; };
+		CE32A6401B7609890033CF1C /* BHNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHNavigationBar.m; sourceTree = "<group>"; };
+		CE32A6411B7609890033CF1C /* BHNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHNavigationItem.h; sourceTree = "<group>"; };
+		CE32A6421B7609890033CF1C /* BHNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHNavigationItem.m; sourceTree = "<group>"; };
+		CE32A6431B7609890033CF1C /* BHNavigationMarcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHNavigationMarcos.h; sourceTree = "<group>"; };
+		CE32A6441B7609890033CF1C /* BHNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHNavigationViewController.h; sourceTree = "<group>"; };
+		CE32A6451B7609890033CF1C /* BHNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHNavigationViewController.m; sourceTree = "<group>"; };
+		CE32A6461B7609890033CF1C /* UIViewController+BHNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BHNavigation.h"; sourceTree = "<group>"; };
+		CE32A6471B7609890033CF1C /* UIViewController+BHNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BHNavigation.m"; sourceTree = "<group>"; };
+		CE32A6591B760C2C0033CF1C /* BHTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTransform.h; sourceTree = "<group>"; };
+		CE32A65A1B760C2C0033CF1C /* BHTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTransform.m; sourceTree = "<group>"; };
+		CE32A65C1B760C710033CF1C /* BHNavigationPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHNavigationPopAnimation.h; sourceTree = "<group>"; };
+		CE32A65D1B760C710033CF1C /* BHNavigationPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHNavigationPopAnimation.m; sourceTree = "<group>"; };
+		CE32A65F1B760C7B0033CF1C /* BHNavigationPushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHNavigationPushAnimation.h; sourceTree = "<group>"; };
+		CE32A6601B760C7B0033CF1C /* BHNavigationPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHNavigationPushAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE32A6071B7607050033CF1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE32A6201B7607050033CF1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE32A6011B7607050033CF1C = {
+			isa = PBXGroup;
+			children = (
+				CE32A60C1B7607050033CF1C /* BH3DTransition */,
+				CE32A6261B7607050033CF1C /* BH3DTransitionTests */,
+				CE32A60B1B7607050033CF1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE32A60B1B7607050033CF1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE32A60A1B7607050033CF1C /* BH3DTransition.app */,
+				CE32A6231B7607050033CF1C /* BH3DTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE32A60C1B7607050033CF1C /* BH3DTransition */ = {
+			isa = PBXGroup;
+			children = (
+				CE32A6331B7609890033CF1C /* BHNavigation */,
+				CE32A6111B7607050033CF1C /* AppDelegate.h */,
+				CE32A6121B7607050033CF1C /* AppDelegate.m */,
+				CE32A6141B7607050033CF1C /* ViewController.h */,
+				CE32A6151B7607050033CF1C /* ViewController.m */,
+				CE32A61A1B7607050033CF1C /* Images.xcassets */,
+				CE32A60D1B7607050033CF1C /* Supporting Files */,
+			);
+			path = BH3DTransition;
+			sourceTree = "<group>";
+		};
+		CE32A60D1B7607050033CF1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE32A60E1B7607050033CF1C /* Info.plist */,
+				CE32A60F1B7607050033CF1C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE32A6261B7607050033CF1C /* BH3DTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE32A6291B7607050033CF1C /* BH3DTransitionTests.m */,
+				CE32A6271B7607050033CF1C /* Supporting Files */,
+			);
+			path = BH3DTransitionTests;
+			sourceTree = "<group>";
+		};
+		CE32A6271B7607050033CF1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE32A6281B7607050033CF1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE32A6331B7609890033CF1C /* BHNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				CE32A6341B7609890033CF1C /* Addtions */,
+				CE32A6371B7609890033CF1C /* Animation */,
+				CE32A63C1B7609890033CF1C /* BHBarButtonItem.h */,
+				CE32A63D1B7609890033CF1C /* BHBarButtonItem.m */,
+				CE32A63E1B7609890033CF1C /* BHNavigation.h */,
+				CE32A63F1B7609890033CF1C /* BHNavigationBar.h */,
+				CE32A6401B7609890033CF1C /* BHNavigationBar.m */,
+				CE32A6411B7609890033CF1C /* BHNavigationItem.h */,
+				CE32A6421B7609890033CF1C /* BHNavigationItem.m */,
+				CE32A6431B7609890033CF1C /* BHNavigationMarcos.h */,
+				CE32A6441B7609890033CF1C /* BHNavigationViewController.h */,
+				CE32A6451B7609890033CF1C /* BHNavigationViewController.m */,
+				CE32A6461B7609890033CF1C /* UIViewController+BHNavigation.h */,
+				CE32A6471B7609890033CF1C /* UIViewController+BHNavigation.m */,
+			);
+			path = BHNavigation;
+			sourceTree = "<group>";
+		};
+		CE32A6341B7609890033CF1C /* Addtions */ = {
+			isa = PBXGroup;
+			children = (
+				CE32A6351B7609890033CF1C /* UIView+Accessor.h */,
+				CE32A6361B7609890033CF1C /* UIView+Accessor.m */,
+			);
+			path = Addtions;
+			sourceTree = "<group>";
+		};
+		CE32A6371B7609890033CF1C /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				CE32A6591B760C2C0033CF1C /* BHTransform.h */,
+				CE32A65A1B760C2C0033CF1C /* BHTransform.m */,
+				CE32A65C1B760C710033CF1C /* BHNavigationPopAnimation.h */,
+				CE32A65D1B760C710033CF1C /* BHNavigationPopAnimation.m */,
+				CE32A65F1B760C7B0033CF1C /* BHNavigationPushAnimation.h */,
+				CE32A6601B760C7B0033CF1C /* BHNavigationPushAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE32A6091B7607050033CF1C /* BH3DTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE32A62D1B7607050033CF1C /* Build configuration list for PBXNativeTarget "BH3DTransition" */;
+			buildPhases = (
+				CE32A6061B7607050033CF1C /* Sources */,
+				CE32A6071B7607050033CF1C /* Frameworks */,
+				CE32A6081B7607050033CF1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BH3DTransition;
+			productName = BH3DTransition;
+			productReference = CE32A60A1B7607050033CF1C /* BH3DTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE32A6221B7607050033CF1C /* BH3DTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE32A6301B7607050033CF1C /* Build configuration list for PBXNativeTarget "BH3DTransitionTests" */;
+			buildPhases = (
+				CE32A61F1B7607050033CF1C /* Sources */,
+				CE32A6201B7607050033CF1C /* Frameworks */,
+				CE32A6211B7607050033CF1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE32A6251B7607050033CF1C /* PBXTargetDependency */,
+			);
+			name = BH3DTransitionTests;
+			productName = BH3DTransitionTests;
+			productReference = CE32A6231B7607050033CF1C /* BH3DTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE32A6021B7607050033CF1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = libohao;
+				TargetAttributes = {
+					CE32A6091B7607050033CF1C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CE32A6221B7607050033CF1C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CE32A6091B7607050033CF1C;
+					};
+				};
+			};
+			buildConfigurationList = CE32A6051B7607050033CF1C /* Build configuration list for PBXProject "BH3DTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE32A6011B7607050033CF1C;
+			productRefGroup = CE32A60B1B7607050033CF1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE32A6091B7607050033CF1C /* BH3DTransition */,
+				CE32A6221B7607050033CF1C /* BH3DTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE32A6081B7607050033CF1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE32A61B1B7607050033CF1C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE32A6211B7607050033CF1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE32A6061B7607050033CF1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE32A6611B760C7B0033CF1C /* BHNavigationPushAnimation.m in Sources */,
+				CE32A6161B7607050033CF1C /* ViewController.m in Sources */,
+				CE32A6131B7607050033CF1C /* AppDelegate.m in Sources */,
+				CE32A64C1B7609890033CF1C /* BHNavigationBar.m in Sources */,
+				CE32A65E1B760C710033CF1C /* BHNavigationPopAnimation.m in Sources */,
+				CE32A6101B7607050033CF1C /* main.m in Sources */,
+				CE32A6481B7609890033CF1C /* UIView+Accessor.m in Sources */,
+				CE32A64B1B7609890033CF1C /* BHBarButtonItem.m in Sources */,
+				CE32A64F1B7609890033CF1C /* UIViewController+BHNavigation.m in Sources */,
+				CE32A64E1B7609890033CF1C /* BHNavigationViewController.m in Sources */,
+				CE32A65B1B760C2C0033CF1C /* BHTransform.m in Sources */,
+				CE32A64D1B7609890033CF1C /* BHNavigationItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE32A61F1B7607050033CF1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE32A62A1B7607050033CF1C /* BH3DTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE32A6251B7607050033CF1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE32A6091B7607050033CF1C /* BH3DTransition */;
+			targetProxy = CE32A6241B7607050033CF1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE32A62B1B7607050033CF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE32A62C1B7607050033CF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE32A62E1B7607050033CF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BH3DTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE32A62F1B7607050033CF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BH3DTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE32A6311B7607050033CF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BH3DTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BH3DTransition.app/BH3DTransition";
+			};
+			name = Debug;
+		};
+		CE32A6321B7607050033CF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BH3DTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BH3DTransition.app/BH3DTransition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE32A6051B7607050033CF1C /* Build configuration list for PBXProject "BH3DTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE32A62B1B7607050033CF1C /* Debug */,
+				CE32A62C1B7607050033CF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE32A62D1B7607050033CF1C /* Build configuration list for PBXNativeTarget "BH3DTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE32A62E1B7607050033CF1C /* Debug */,
+				CE32A62F1B7607050033CF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE32A6301B7607050033CF1C /* Build configuration list for PBXNativeTarget "BH3DTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE32A6311B7607050033CF1C /* Debug */,
+				CE32A6321B7607050033CF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE32A6021B7607050033CF1C /* Project object */;
+}
